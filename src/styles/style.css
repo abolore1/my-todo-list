@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  /* font-weight: 400; */
+  src: url("./font/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/Orbitron-Black.ttf");
+}
+
+.todo-app{
+  margin-top:120px;
+}
+
+.time-font {
+  font-family: 'Poppins';
+  font-weight: 300;
+  margin-right:10px;
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-flex{
+ font-size: 30px;
+} 
+
+.time-font2{
+  font-family: 'Orbitron';
+  font-weight: 300;
+  margin-right:10px;
+  letter-spacing: 2px;
+  
+}
+@media (max-width:700px) {
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav-flex{
+    font-size: 23px;
+  } 
+}
+
+.center {
+  padding-bottom: 10px;
+  font-family: 'Roboto';
+}
